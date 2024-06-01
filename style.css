@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(yellow, white);
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1{
+    background-color: white;
+    color: orange;
+    text-shadow: 3px 3px 3px grey;
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 42px;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    animation-name: a1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes a1{
+    from{box-shadow: 5px 5px 40px gray;}
+    to{box-shadow: 5px 5px 40px white;}
+}
+#score{
+float: left;
+margin-left: 20px;
+font-size: 28px;
+font-family: cursive;
+color:chocolate;
+}
+#timer{
+float: right;
+margin-right: 90px;
+font-size: 28px;
+font-family: cursive;
+color:chocolate;
+}
+canvas{
+    animation-name: a1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes a1{
+    from{box-shadow: 5px 5px 40px orange;}
+    to{box-shadow: 5px 5px 40px white;}
+}
+#label{
+    font-size: 24px;
+    font-family: serif;
+    color:black;
+}
+#confidence{
+    font-size: 24px;
+    font-family: serif;
+    color:black;
+}
+#sketch{
+    font-size: 24px;
+    font-family: serif;
+    color:black;
+}
